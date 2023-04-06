@@ -1,0 +1,14 @@
+@import url("../../globals/colors/index.css");
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--dark-blue);
+}

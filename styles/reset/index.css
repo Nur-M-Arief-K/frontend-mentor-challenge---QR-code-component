@@ -1,0 +1,16 @@
+@import url("./typography/index.css");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 15px;
+    margin-block: 0;
+}

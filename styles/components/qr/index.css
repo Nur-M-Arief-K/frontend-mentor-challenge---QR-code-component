@@ -1,0 +1,51 @@
+@import url("../../globals/colors/index.css");
+
+.qr {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light-gray);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+
+  width: min-content;
+  padding: 1em;
+
+  background-color: var(--white);
+  border-radius: 1em;
+
+  text-align: center;
+}
+
+.qr-card__image {
+  height: 275px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 1em;
+}
+
+.qr-card__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.qr-card__description {
+  color: var(--grayish-blue);
+}
+
+/* style for desktop >1400px */
+@media screen and (min-width: 1400px) {
+  .qr-card__image {
+    height: 250px;
+  }
+}
